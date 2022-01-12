@@ -10,6 +10,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import jm.ec.edu.uce.service.scope.IMatriculaPrototypeService;
 import jm.ec.edu.uce.service.scope.IMatriculaSingletonService;
 
+
+
+
 @SpringBootApplication
 public class DemoConsolaWeb1Application implements CommandLineRunner {
 
@@ -38,7 +41,7 @@ public class DemoConsolaWeb1Application implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		
-//Singleton crea una sola instancia y se cuando se modifica uno, se modifica todos los objetos		
+//Singleton crea una sola instancia y cuando se modifica uno, se modifica todos los objetos		
 		LOG.info("Impresion valor del objeto");
 		this.obj1.establecerDato("Joselyn");
 		LOG.info(this.obj1.obtenerCodigo());
