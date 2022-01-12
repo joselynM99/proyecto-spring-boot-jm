@@ -1,5 +1,4 @@
 package jm.ec.edu.uce;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,9 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import jm.ec.edu.uce.service.scope.IMatriculaPrototypeService;
 import jm.ec.edu.uce.service.scope.IMatriculaSingletonService;
-
-
-
 
 @SpringBootApplication
 public class DemoConsolaWeb1Application implements CommandLineRunner {
